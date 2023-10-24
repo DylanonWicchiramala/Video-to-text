@@ -14,7 +14,9 @@ config = {
         "vad_filter": True, # default: True
     },
     'abstractive_summarizer':{
-        'model_sources': "https://huggingface.co/facebook/bart-base-xsum"
+        'model_sources': "https://huggingface.co/DylanonWic/mT5_summarize_th_en" 
+        # https://huggingface.co/DylanonWic/mT5_summarize_th_en , 
+        # https://huggingface.co/facebook/bart-base-xsum
     }
 }
 
