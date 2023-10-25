@@ -17,6 +17,9 @@ config = {
         'model_sources': "https://huggingface.co/DylanonWic/mT5_summarize_th_en" 
         # https://huggingface.co/DylanonWic/mT5_summarize_th_en , 
         # https://huggingface.co/facebook/bart-base-xsum
+    },
+    'gradio':{
+        'share': True
     }
 }
 

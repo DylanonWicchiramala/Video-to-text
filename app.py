@@ -1,5 +1,6 @@
 import gradio as gr
 import main
+from config import config
 
 example_link = [
     "https://youtu.be/veCkQ_bPR3k?si=UsKqVpOArmcawwXx",
@@ -36,4 +37,4 @@ with gr.Blocks() as demo:
         btn_summarize.click(main.show_output, inputs=[btn_summarize], outputs=out)
 
 
-demo.launch(share=False)
+demo.launch(share=config['gradio']['share'])
