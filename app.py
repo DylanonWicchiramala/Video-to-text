@@ -27,8 +27,8 @@ with gr.Blocks() as demo:
         
         with gr.Column():
             with gr.Row():
-                btn_transcribe = gr.Button("Transcribe")
-                btn_summarize = gr.Button("Summarize")
+                btn_transcribe = gr.Button("Transcription")
+                btn_summarize = gr.Button("Summasrize")
             
             out = gr.Text(label="Output", lines=15, max_lines=40)
     
