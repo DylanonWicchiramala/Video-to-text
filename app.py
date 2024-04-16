@@ -11,6 +11,7 @@ example_link = [
 main.pre_load()
 
 with gr.Blocks() as demo:
+    gr.Markdown("#YouTube video summarizer.")
     gr.Markdown("Start typing below and then click **Run** to see the output.")
     
     with gr.Row():
