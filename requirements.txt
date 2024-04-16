@@ -1,0 +1,7 @@
+gradio==3.36.1
+nltk==3.8.1
+torch==2.0.1+cu117
+transformers==4.29.2
+huggingface-hub==0.14.1
+youtube-transcript-api==0.6.1
+faster-whisper==0.8.0
