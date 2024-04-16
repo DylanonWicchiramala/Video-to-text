@@ -11,7 +11,7 @@ example_link = [
 main.pre_load()
 
 with gr.Blocks() as demo:
-    gr.Markdown("#YouTube video summarizer.")
+    gr.Markdown("# YouTube video summarizer.")
     gr.Markdown("Start typing below and then click **Run** to see the output.")
     
     with gr.Row():
@@ -28,7 +28,7 @@ with gr.Blocks() as demo:
         with gr.Column():
             with gr.Row():
                 btn_transcribe = gr.Button("Transcription")
-                btn_summarize = gr.Button("Summasrize")
+                btn_summarize = gr.Button("Summarize")
             
             out = gr.Text(label="Output", lines=15, max_lines=40)
     

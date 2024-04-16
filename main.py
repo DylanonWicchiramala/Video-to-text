@@ -25,7 +25,7 @@ def complie(path, link, out_key):
     
     
     out = {
-        "Transcribe": transcription,
+        "Transcription": transcription,
         "Summarize": summarie
     }
     return out[out_key]
