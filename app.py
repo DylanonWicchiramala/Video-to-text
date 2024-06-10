@@ -6,6 +6,8 @@ example_link = [
     "https://youtu.be/veCkQ_bPR3k?si=UsKqVpOArmcawwXx",
     "https://youtu.be/TksaY_FDgnk?si=OKtpJF_WzoKXhmWc",
     "https://youtu.be/aircAruvnKk?si=3Si3Are9yxeYNX1d",
+    "https://www.youtube.com/watch?v=qEbugQ3uJyw",
+    "https://www.youtube.com/watch?v=1CrmXSWMWkg",
 ]
 
 main.pre_load()

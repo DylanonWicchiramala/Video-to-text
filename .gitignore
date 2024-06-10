@@ -3,3 +3,4 @@ models/*
 __pycache__/*
 sample/*
 Topic_modeling/models/*
+Documentations/*
